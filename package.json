@@ -1,0 +1,22 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "API webhooks mercadopago",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "Procyon desarrollo",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "googleapis": "^66.0.0",
+        "mailgun-js": "^0.22.0",
+        "node-fetch": "^2.6.1",
+        "nodemailer": "^6.4.17"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
